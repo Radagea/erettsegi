@@ -1,0 +1,130 @@
+@import url(http://fonts.googleapis.com/css?family=Titillium+Web);
+* {padding:0;margin:0}
+.clear:before, .clear:after { content:" "; display: table }
+.clear:after { clear: both }
+body { font-family: 'Titillium Web', sans-serif; }
+a { text-decoration: none }
+
+section{
+	width: 900px;
+	margin:0 auto
+}
+input.megjegy {
+	width: 400px;
+	height: 100px;
+}
+
+header {
+	background: #ddd;
+	width: 100%;
+	background: #26272b;
+	margin: 0 0 20px 0
+}
+header nav {
+	width: 1000px;
+	margin: 0 auto
+}
+header nav ul {
+	list-style: none;
+	float:right
+}
+header nav li {
+	float: left
+}
+header ul a {
+	display: inline-block;
+	padding: 20px;
+	color: rgba(255,255,255,0.7)
+}
+header ul a:hover {
+	color: #000;
+	background: #FFBB22
+}
+
+p {
+	margin: 0 0 20px 0;
+	text-align:justify;
+	line-height: 1.7;
+	color: rgba(0,0,0,0.4)
+}
+
+
+header.clone {
+	position: fixed;
+	top: 0;
+	left: 0;
+	transform: translateY(-100%);
+	transition: all 300ms ease-in-out;
+}
+header.clone ul a {
+	padding: 10px
+}
+header.clone .logo {
+	font-size: 25px;
+}
+header.stick {
+	transform: translateY(0%);
+}
+
+
+
+div#wrapper {
+	width: 800px;
+	margin: 0 auto
+}
+div#wrapper h2 {
+	background: #f7f7f7;
+	padding: 7px 10px;
+	margin: 0 0 10px 0;
+	font-size: 14px;
+	cursor: pointer;
+	color: Black;
+}
+div#wrapper h2:hover {
+	background-color: #ededed;
+	color: Black
+}
+div#wrapper h2.active {
+	background-position: right 5px
+}
+div#wrapper div.content {
+	margin: 10px 0;
+	padding: 10px;
+	display: none;
+	color: Black;
+}
+div#wrapper div.content p {
+	line-height: 20px;
+	color: black;
+}
+div#wrapper div.content img {
+	margin: 0 0 10px 0
+}
+ul.mainmenu
+{
+	list-style: none;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+ul.mainmenu li {
+	display: inline-block;
+}
+ul.mainmenu li a {
+	color: black;
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+}
+ul.mainmenu li a:hover {
+	padding: 10px;
+	font-weight: bold;
+	font-size: 16px;
+	color: #000;
+	background: #FFBB22;
+}
+div.bejelent {
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
